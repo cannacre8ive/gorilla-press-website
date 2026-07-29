@@ -1,0 +1,3 @@
+import { SITE } from '../data/site';
+import { Button } from '../components/ui';
+export default function Contact(){return <><section className="hero compact-hero"><div className="wrap hero-copy"><p className="eyebrow">Contact</p><h1>Get in touch.</h1><p className="lead">Have a production job? The quote form asks the questions that help us answer faster.</p><div className="button-row"><Button to="/quote">Request a quote</Button></div></div></section><section className="section"><div className="wrap two-grid"><div><h2>Direct</h2><p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p></div><div><h2>Shop</h2><p>{SITE.region}<br/>{SITE.visits}</p></div></div></section></>}

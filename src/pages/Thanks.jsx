@@ -1,0 +1,2 @@
+import { Button } from '../components/ui';
+export default function Thanks(){return <section className="hero"><div className="wrap hero-copy"><p className="eyebrow">Confirmed</p><h1>Your request was received.</h1><p className="lead">We will review the job details and reply by email. If anything important is missing, we will ask before preparing an estimate.</p><div className="button-row"><Button to="/file-prep" secondary>Read the file prep guide</Button><Button to="/">Return home</Button></div></div></section>}
