@@ -14,6 +14,7 @@ All notable changes to this project are documented here using [Keep a Changelog]
 ### Changed
 
 - Expanded the README with the production link, visual preview, setup steps, architecture summary, and recent updates.
+- Pinned runtime and build dependencies for reproducible installs.
 
 ## [1.1.0] - 2026-07-28
 
